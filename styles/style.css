@@ -83,6 +83,26 @@
     color: #E55473;
 }
 
+/* Outlet Section Style Part */
+.outlet-container {
+    background-color: #E55473; 
+    border-radius: 10px;
+    padding: 50px 240px;
+    margin-bottom: 128px;
+}
+.outlet-container .content-title, .content-description {
+    color: #FFF;
+}
+.outlet-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.outlet-img-container img {
+    width: 700px;
+    border-radius: 10px;
+}
+
 /* Delivery and Support Section Style Part */
 .delivery-container {
     display: flex;
@@ -133,7 +153,36 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     padding: 121px 287px;
+    margin-bottom: 128px;
+}
+.latest-subContainer input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
 }
 .latest-subContainer {
     text-align: center;
+}
+
+/* Footer Section Style Part */
+.footer-container {
+    text-align: center;
+    background: #111010;
+    padding: 128px 650px;
+}
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0 32px 0;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
