@@ -90,9 +90,7 @@
     padding: 50px 240px;
     margin-bottom: 128px;
 }
-.outlet-container .content-title, .content-description {
-    color: #FFF;
-}
+
 .outlet-img-container {
     display: flex;
     justify-content: center;
